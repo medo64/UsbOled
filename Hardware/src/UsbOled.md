@@ -21,7 +21,7 @@
 |  1 | J Header Female (4w)                      | J2      | S7002-ND            |
 |  1 | L Ferrite 1A 40Ohm (0805)                 | L1      | 445-2201-1-ND       |
 |  1 | R 1K 0.125W (0805)                        | R1      | RMCF0805FT1K00CT-ND |
-|  3 | R 5.1K 0.125W (0805)                      | R2-R4   | RMCF0805FT5K10CT-ND |
+|  5 | R 5.1K 0.125W (0805)                      | R2-R6   | RMCF0805FT5K10CT-ND |
 |  1 | U PIC16F1454-I/ST (SSOP-14)               | U1      | PIC16F1454-I/ST-ND  |
 
 
