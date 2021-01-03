@@ -25,16 +25,22 @@
 |  1 | U PIC16F1454-I/ST (SSOP-14)               | U1      | PIC16F1454-I/ST-ND  |
 
 
-#### I²C Pull-Up ####
+#### Optional I²C Pull-Up ####
 
-Resistors with PU mark next to them (R5 and R6) should be left unpopulated
+Resistors with PU mark next to them (`R5` and `R6`) should be left unpopulated
 if additional I²C pull-up is not needed. Assuming OLED board already has the
-4.7K pull-ups (commonly true), adding 5.1K pull-ups will result in 2.45K
+`4.7K` pull-ups (commonly true), adding `5.1K` pull-ups will result in `2.45K`
 pull-up value. Such strong pull up is not really necessary but it also won't
 hurt.
 
 Pull-ups are taken from internal PIC 3.3V line and thus must be omitted if
 OLED board doesn't use 3.3V logic.
+
+
+#### Optional Capacitors ####
+
+Capacitors `C3` and `C4` are not needed unless a really long OLED cable is
+used. They can be omitted for usage with cables of `2 m` and shorter.
 
 
 ### Revisions ###
