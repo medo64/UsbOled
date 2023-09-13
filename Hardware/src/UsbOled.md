@@ -24,10 +24,15 @@
 |  1 | U PIC16F1454-I/ST (SSOP-14)               | U1      | PIC16F1454-I/ST-ND  |
 
 
-#### I²C Pull-Up ####
+#### Optional I²C Pull-Up ####
 
 OLED display is expected to have a pull-up resistors for I²C line (commonly
-`4.7K`).
+`4.7K`). No additional I²C resistors are usually required.
+
+If additional I²C pull-ups are needed there are 2 resistor footprints available
+on the OLED side that can be populated. E.g., adding `5.1K` pull-ups if `4.7K`
+pull up is already available will result in `2.45K` pull-up value. Such strong
+pull up is not really necessary but it also shouldn't hurt.
 
 
 ### Revisions ###
