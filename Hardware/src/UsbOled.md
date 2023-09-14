@@ -34,6 +34,8 @@ on the OLED side that can be populated. E.g., adding `5.1K` pull-ups if `4.7K`
 pull up is already available will result in `2.45K` pull-up value. Such strong
 pull up is not really necessary but it also shouldn't hurt.
 
+Pull-ups are taken from internal PIC 3.3V line.
+
 
 ### Revisions ###
 
