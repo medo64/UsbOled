@@ -36,15 +36,6 @@ pull up is not really necessary but it also shouldn't hurt.
 
 Pull-ups are taken from internal PIC 3.3V line.
 
-
-### Revisions ###
-
-| Revision | RA5   | RC5   | Description      |
-|----------|-------|-------|------------------|
-| A        | Low   | N/A   | First revision.  |
-| B        | High  | Low   | Second revision. |
-
-
 ---
 
 *You can check my blog and other projects at [www.medo64.com](https://www.medo64.com/electronics/)*
