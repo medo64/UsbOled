@@ -1,1 +1,0 @@
-update-serial.sh
