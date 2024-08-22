@@ -1,7 +1,7 @@
-## USB OLED ##
+## Hardware
 
 
-### Properties ###
+### Properties
 
 |            |                |
 |------------|---------------:|
@@ -10,7 +10,7 @@
 | Current    | 100 mA         |
 
 
-### Parts ###
+### Parts
 
 |  # | Part                                      | RefDes  | DigiKey Part Number |
 |---:|-------------------------------------------|---------|---------------------|
@@ -24,7 +24,7 @@
 |  1 | U PIC16F1454-I/ST (SSOP-14)               | U1      | PIC16F1454-I/ST-ND  |
 
 
-#### Optional I²C Pull-Up ####
+#### Optional I²C Pull-Up
 
 OLED display is expected to have a pull-up resistors for I²C line (commonly
 `4.7K`). No additional I²C resistors are usually required.
